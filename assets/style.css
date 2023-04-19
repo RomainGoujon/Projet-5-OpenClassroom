@@ -3,8 +3,11 @@ body {
 	margin: auto;
 }
 * {
-	font-family: 'Inter';
+	font-family: 'Inter', "arial", serif;
 	font-style: normal;
+	margin: 0;
+  	padding: 0;
+  	box-sizing: border-box;
 }
 .top-header {
 	background-color: white;
@@ -40,6 +43,7 @@ body {
 
 .social-link img {
 	width: 20px;
+	height: 20px;
 }
 
 #about {
@@ -69,7 +73,7 @@ body {
 
 .picture img {
 	width: 100%;
-
+	height: 100%;
 }
 #about-me {
 	flex: 2
@@ -80,7 +84,7 @@ body {
 	font-size: 30px;
 }
 .about-me__introduction {
-	font-family: 'Spectral';
+	font-family: 'Spectral', sans-serif;
 	font-weight: 800;
 	font-style: italic;
 	width: 60%;
@@ -91,7 +95,7 @@ body {
 }
 
 #gallery {
-	/*	min-height: 100vh; */
+	min-height: 100vh;
 }
 .title{
 	text-align: center;
@@ -100,13 +104,17 @@ body {
 .gallery .nav {
 	justify-content: center;
 }
-.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-	color: #fff;
+.nav-pills .nav-link.active-tag,
+ .nav-pills .show > .nav-link {
+	color: #000;
 	background-color: #BEB45A;
 	border-radius:0 ;
 }
+.nav-link:hover{
+	cursor: pointer;
+}
 .nav-pills .nav-link {
-	color: #000
+	color: #000;
 }
 .item-column {
 	position: relative;
@@ -124,7 +132,7 @@ body {
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
-	padding: .5em;
+	padding: 0.5em;
 }
 .mg-prev, .mg-next {
 	width: 30px;
@@ -213,7 +221,6 @@ body {
 }
 .form-container {
 	flex : 2;
-
 }
 form {
 	display: flex;
@@ -263,7 +270,6 @@ input[type="submit"] {
 @media all and (max-width: 1000px) {
 	#about{
 		flex-direction: column;
-
 	}
 	.picture {
 		width: 50%;
