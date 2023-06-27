@@ -9,3 +9,5 @@ lien du site avant optimisation: https://nina-carducci.github.io/
 lien audit du site: https://course.oc-static.com/projects/D%C3%A9veloppeur+Web/IW_P9+Optimisation/audit_nina_carducci.pdf
 
 lien github du site: https://github.com/nina-carducci/nina-carducci.github.io
+
+et enfin le lien après optimisation: [lighthouse rapport.pdf](https://github.com/RomainGoujon/Projet-5-OpenClassroom/files/11879261/lighthouse.rapport.pdf)
